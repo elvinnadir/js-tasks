@@ -16,3 +16,25 @@
 //   }
 //   console.log(reversedNum(1345))
 
+// task4 a given number 13
+// function myNum(a){
+//     if(a<13){
+//         return 13-a;
+//     }
+//     else{
+//         return a*2;
+//     }
+// }
+// console.log(myNum(18));
+
+
+// task5 array length > 5 add element/delet 
+let a = [13, 14, 34, 54, 46, 41, 44];
+if (a.length > 5) {
+    a.unshift("first title");
+} else {
+    a.pop();
+}
+console.log(a);
+
+
