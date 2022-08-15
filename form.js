@@ -1,14 +1,12 @@
 let form = document.getElementById("form");
-let action = document.getElementsByClassName("btn");
+let button = document.getElementsByClassName("btn");
 let name = document.getElementsByClassName("name");
 let address = document.getElementsByClassName("address");
 let selectCity = document.getElementsByClassName("cities");
 let hobby = document.getElementsByClassName("hobby");
 let hiddenBox = document.getElementsByClassName("hidden");
-let myInput;
+let action_div=document.getElementById("action_div");
 
 
-function hobbyBtn() {
-console.log("click here");
-}
-action.addEventListener('click',hobbyBtn());
+
+button.addEventListener('click',()=>{console.log("clicked")});
